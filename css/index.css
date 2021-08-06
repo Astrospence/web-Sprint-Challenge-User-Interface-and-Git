@@ -219,7 +219,7 @@ footer nav a {
 /*About Page Styles*/
 .top{
     padding:0 3% 3%;
-    border-bottom:2px dotted black;
+    border-bottom:1px dashed black;
     margin-bottom:3%;
 }
 
@@ -233,7 +233,7 @@ footer nav a {
     width:45%;
     display:flex;
     flex-direction:column;
-    border-bottom:2px dotted black;
+    border-bottom:1px dashed black;
     margin:0 0 7%;
 }
 
@@ -241,12 +241,29 @@ footer nav a {
     width:100%;
 }
 
-.card h2, .card p{
-    padding:1% 0 1%;
+.card h2{
+    padding-top:3%;
+}
+
+.card p{
+    padding:0 0 1%;
 }
 
 .button{
     display:flex;
-    justify-content:center;
+    justify-content:flex-start;
     padding:4% 0 6%;
+}
+
+.button button{
+    background-color:white;
+    border-radius:5px;
+    font-weight:bold;
+    font-size:1rem;
+    padding:2%;
+    width:30%;
+}
+
+.bottom{
+    padding:0 4% 5%;
 }
